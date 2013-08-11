@@ -1,6 +1,6 @@
 ---
 layout: default
-image: /img/dog.jpg
-title: Bikes, Black and White
+image: /img/dog.gif
+title: Am I swimming?
 ---
-Bikes are used by almost everyone in downtown Amsterdam. These ones are chained to a bike rack.
+This dog is crazy
