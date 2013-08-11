@@ -1,9 +1,30 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-  <meta charset=utf-8 />
-  <title> {% if page.title %} {{ page.title }} | {% endif %} John Doe, Photographer </title>
-  <link rel="stylesheet" href="{{ site.baseurl}}/css/styles.css" />
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset=utf-8 />
+	<title> {% if page.title %} {{ page.title }} | {% endif %} Repo with pages </title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<link rel="stylesheet" href="{{ site.baseurl}}/css/styles.css" />
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+
+	<!-- javascript -->
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="js/selectivizr-min.js"></script>
+	<![endif]-->
+
 </head>
 <body>
  
